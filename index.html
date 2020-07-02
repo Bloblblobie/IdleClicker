@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="scripts/jquery3.4.1.js"></script>
+    <script src="scripts/test.js"></script>
+</head>
+
+<body>
+    <div class="head">
+        <div class="score" id="GoldPiece"></div>
+        <div class="score" id="Villagers"></div>
+        <div class="score" id="Food"></div>
+        <div class="score" id="Wood"></div>
+        <div class="score" id="Stone"></div>
+        <div class="score" id="Gold"></div>
+        <div class="score" id="Iron"></div>
+        <div class="score" id="Gems"></div>
+        <div class="score" id="Jewels"></div>
+        <div class="score" id="Prayers"></div>
+    </div>
+
+    <div class="build">
+        <div id="House" class="buildingA">
+            <div class="Title">House</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1>village poeple</p1>
+        </div>
+        <div id="Woodcutter" class="buildingA">
+            <div class="Title">Woodcutter</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1>we are cutting wood, wood, wood.</p1>
+        </div>
+        <div id="Farm" class="buildingA">
+            <div class="Title">Farm</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1></p1>
+        </div>
+        <div id="Quarry" class="buildingA">
+            <div class="Title">Quarry</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1>Ooh piece of stone, ooh piece of stone, ooh piece of stone</p1>
+        </div>
+        <div id="GoldMine" class="buildingA">
+            <div class="Title">Gold Mine</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1></p1>
+        </div>
+    </div>
+    <br>
+    <div class="build">
+        <div id="IronMine" class="buildingB">
+            <div class="Title">Iron Mine</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1></p1>
+        </div>
+        <div id="GemMine" class="buildingB">
+            <div class="Title">Gem Mine</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1></p1>
+        </div>
+        <div id="JewelCrafter" class="buildingB">
+            <div class="Title">Jewel Crafter</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1></p1>
+        </div>
+        <div id="Wonder" class="buildingB">
+            <div class="Title">Wonder</div>
+            <div class="Income">Income :</div>
+            <div class="Costs">Upgrade cost :</div>
+            <div class="Level">Level :</div><br>
+            <button class="button" type="button" onclick="document.getElementById('Upgrade')"> Upgrade
+            </button><br><br>
+            <p1></p1>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            let games = new Game();
+
+            console.log(games);
+        })
+    </script>
+</body>
+
+</html>

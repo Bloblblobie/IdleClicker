@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "noImplicitAny": true,
+      "removeComments": false,
+      "preserveConstEnums": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictPropertyInitialization": true,
+      "sourceMap": true,
+      "outDir": "scripts"
+    },
+    "include": [".src/**/*"]
+}

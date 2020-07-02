@@ -1,0 +1,44 @@
+.head {
+  display: flex;
+  background-color: whitesmoke;
+  outline-style: double;
+  }
+.score{
+    padding: 10px;
+    margin: 10px;
+}
+
+.build{
+  display: flex;
+}
+.buildingA{
+  border: solid black 2px;
+  background-color: lightgrey;
+  padding: 30px;
+  padding-bottom: 45px;
+  margin: 50px;
+  margin-bottom: 30px;
+  width: 200px;
+  border-radius: 4px
+}
+.buildingB{
+  border: solid black 2px;
+  background-color: lightgrey;
+  padding: 30px;
+  padding-bottom: 45px;
+  margin: 50px;
+  margin-top: 0px;
+  width: 200px;
+  border-radius: 4px
+}
+.Title{
+  color: brown;
+  text-align: center;
+  padding-bottom: 10%;
+  font-weight: 900;
+  font-size: 20px;
+}
+.button{
+  border: solid black 2px;
+  padding: 8px;
+}
